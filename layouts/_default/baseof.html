@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    {{ $styles := resources.Get "css/main.css" | minify }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    {{ $js := resources.Get "js/main.js" | minify }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+<body class="light-mode">
+    <header class="navbar">
+        {{ partial "navbar.html" . }}
+    </header>
+    <div id="navscreen" class="navscreen hide-in-desktop">
+        {{ partial "navscreen.html" . }}
+    </div>
+    <div class="container">
+        <aside class="profile-card hide-in-mobile">
+            {{ partial "profile-card.html" . }}
+        </aside>
+        <main class="main-content">
+            {{ block "main" . }}{{ end }}
+        </main>
+    </div>
+    <footer class="footer">
+        {{ partial "footer.html" . }}
+    </footer>
+</body>
+</html>
