@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
     [languages.en.params]
       author = "Lorem ipsum"
-      description = "Ph.D Student in Lorem ipsum College. Focusing on Computer Vision and Deep Learning."
+      description = "Ph.D Student in [Lorem ipsum College](https://example.com). Focusing on Computer Vision and Deep Learning."
       motto = "Most things in the world are not that important. But truth and love matter."
       footer = "Built with <a href='https://gohugo.io'>Hugo</a>. Theme <a href='https://github.com/geekifan/zero-academic-page'>Zero Academic Page</a> designed by <a href='https://github.com/geekifan'>Yifan</a> and <a href='https://github.com/HELLORPG'>Ruopeng</a>."
     

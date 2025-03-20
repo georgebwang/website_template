@@ -7,10 +7,10 @@
         <h2>{{ .Site.Params.author }}</h2>
     </div>
     <div class="profile-description">
-        <p>{{ .Site.Params.description }}</p>
+        <p>{{ .Site.Params.description | markdownify }}</p>
     </div>
     <div class="profile-quote">
-        <p>{{ .Site.Params.motto }}</p>
+        <p>{{ .Site.Params.motto | markdownify }}</p>
     </div>
     <div class="social-links">
         {{ range .Site.Params.social }}
