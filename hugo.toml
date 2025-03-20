@@ -92,7 +92,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
       weight = 7
 
 [params]
-  profilePicture = "images/profile.jpg"
+  profilePicture = "images/profile.png"
   enableDarkMode = true
   
   [[params.social]]
