@@ -429,6 +429,13 @@ header {
     content: none !important;
 }
 
+.main-content p {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
 
 .main-content h1 {
     margin-top: 20px;
