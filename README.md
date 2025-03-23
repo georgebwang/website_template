@@ -24,8 +24,4 @@ Zero Academic Homepage is a clean, modern and responsive theme for academic pers
 
 ## Quick Start
 
-1. Fork this REPO and rename to USERNAME.github.io, where USERNAME is your github USERNAME.
-
-2. Modify the configuration of your homepage `hugo.toml`.
-
-3. Add content to `content/_index.md`.
+Use this template: [geekifan/zero-academic-page](https://geekifan/zero-academic-page)
