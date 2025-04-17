@@ -95,6 +95,9 @@ disableKinds = ["taxonomy", "term", "RSS"]
   profilePicture = "images/profile.png"
   enableDarkMode = true
   
+  # Google Analytics ID, leave empty if you don't want to use Google Analytics
+  googleAnalyticsID = ""
+  
   [[params.social]]
     name = "github"
     url = "https://github.com/"
