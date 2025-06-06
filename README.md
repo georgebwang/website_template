@@ -5,7 +5,7 @@ Zero Academic Homepage
 
 [![](https://img.shields.io/github/stars/geekifan/zero-academic-page)](https://github.com/geekifan/zero-academic-page)
 [![](https://img.shields.io/github/forks/geekifan/zero-academic-page)](https://github.com/geekifan/zero-academic-page)
-[![](https://img.shields.io/github/license/geekifan/zero-academic-page)](https://github.com/geekifan/zero-academic-page/blob/main/LICENSE)  | [Demo](https://geekifan.github.io/zero-academic-page/) 
+[![](https://img.shields.io/github/license/geekifan/zero-academic-page)](https://github.com/geekifan/zero-academic-page/blob/main/LICENSE)  | [Demo](https://geekifan.github.io/zero-academic-page-starter/) 
 </div>
 
 ![](demo.png)
@@ -24,4 +24,4 @@ Zero Academic Homepage is a clean, modern and responsive theme for academic pers
 
 ## Quick Start
 
-Use this template: [geekifan/zero-academic-page](https://geekifan/zero-academic-page)
+Use this template: [geekifan/zero-academic-page-starter](https://geekifan/zero-academic-page-starter)
