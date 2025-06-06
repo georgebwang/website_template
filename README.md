@@ -24,4 +24,4 @@ Zero Academic Homepage is a clean, modern and responsive theme for academic pers
 
 ## Quick Start
 
-Use this template: [geekifan/zero-academic-page-starter](https://geekifan/zero-academic-page-starter)
+Use this template: [geekifan/zero-academic-page-starter](https://github.com/geekifan/zero-academic-page-starter)
