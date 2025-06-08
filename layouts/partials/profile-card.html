@@ -9,9 +9,6 @@
     <div class="profile-description">
         <p>{{ .Site.Params.description | markdownify }}</p>
     </div>
-    <div class="profile-quote">
-        <p>{{ .Site.Params.motto | markdownify }}</p>
-    </div>
     <div class="social-links">
         {{ range .Site.Params.social }}
         <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="social-icon">
