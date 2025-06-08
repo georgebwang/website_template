@@ -458,33 +458,7 @@ header {
 }
 /* end of main content */
 
-/* start of footer */
-.footer {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: .6rem;
-    padding-bottom: .6rem;
-    padding-inline-start: 2rem;
-    padding-inline-end: 2rem;
-    border-top: 1px solid var(--border-color);
-    background: var(--background-color-light);
-    color: var(--text-color-light);
-    text-align: center;
-}
 
-.footer-content {
-    margin: .25rem 0.5rem;
-    font-size: 14px;
-}
-
-.copyright {
-    margin: 6px 0;
-    font-size: 13px;
-}
-/* end of footer */
 
 
 
